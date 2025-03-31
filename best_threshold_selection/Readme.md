@@ -34,20 +34,25 @@ data = [
     (0.2, 85, 60, 15, 5),
     (0.3, 80, 70, 20, 10),
 ]
-```
 
 best_t = best_threshold(data)
 print(f"Best threshold: {best_t}")
+```
 
 :rocket: How to Run
 
 1. Clone the repository:
 
+```
 git clone https://github.com/rezagodaz/ai-coding-challenges.git
 cd ai-coding-challenges/best_threshold_selection
+```
 
 2. Run the solution:
-   python best_threshold.py
+
+```
+python best_threshold.py
+```
 
 :rocket: License
 This project is licensed under the MIT License.
