@@ -26,27 +26,6 @@ The solution is implemented in `best_threshold.py`, which:
 2. Computes recall, precision, and F1-score.
 3. Selects the best threshold based on the highest F1-score where recall ≥ 0.9.
 
-```python
-from typing import List, Tuple, Optional
-
-def best_threshold(data: List[Tuple[float, int, int, int, int]]) -> Optional[float]:
-    best_threshold = None
-    best_f1 = 0
-
-    for threshold, TP, TN, FP, FN in data:
-        recall = TP / (TP + FN) if (TP + FN) > 0 else 0
-        precision = TP / (TP + FP) if (TP + FP) > 0 else 0
-        f1_score = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-
-        print(f"Threshold: {threshold}, Recall: {recall:.2f}, Precision: {precision:.2f}, F1-score: {f1_score:.2f}")
-
-        if recall >= 0.9 and f1_score > best_f1:
-            best_threshold = threshold
-            best_f1 = f1_score
-
-    return best_threshold
-```
-
 Example Usage:
 
 ```python

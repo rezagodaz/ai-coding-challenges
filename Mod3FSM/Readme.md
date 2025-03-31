@@ -10,6 +10,13 @@ This project implements a **Finite State Machine (FSM)** to compute the remainde
 
 The solution is implemented in `Mod3FSM.py`, using an FSM with three states (0, 1, 2), which correspond to the remainders when dividing by 3.
 
+Summary of Highlights of this project:
+✅ Error Handling: Prevents crashes due to invalid input.
+✅ Input Validation: Ensures input correctness before processing.
+✅ Encapsulation – Keeps validation logic separate from process(), making the class cleaner.
+✅ Reusability – The decorator can be applied to other methods if needed.
+✅ Readability – The process() method is now focused only on FSM logic.
+
 ```python
 def validate_binary_input(func):
     """Decorator to validate binary input."""

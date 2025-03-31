@@ -12,7 +12,10 @@ def validate_binary_input(func):
 
 class Mod3FSM:
     def __init__(self):
+        # Initial state (remainder is 0)
         self.initial_state = 0
+
+        # Define FSM transitions
         self.transitions = {
             0: {'0': 0, '1': 1},
             1: {'0': 2, '1': 0},
