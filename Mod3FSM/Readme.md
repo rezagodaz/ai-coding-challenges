@@ -53,12 +53,17 @@ print(fsm.process("1111"))  # Output: 0
 :rocket: How to Run
 
 1. Clone the repository:
+
+```
    git clone https://github.com/rezagodaz/ai-coding-challenges.git
    cd ai-coding-challenges/Mod3FSM
+```
 
 2. Run the solution:
 
+```
 python Mod3FSM.py
+```
 
 :rocket: License
 
