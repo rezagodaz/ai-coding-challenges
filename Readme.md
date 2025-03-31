@@ -2,16 +2,18 @@
 
 This repository contains solutions to two distinct AI coding challenges. Each solution is organized into separate folders for clarity and easy access. The solutions provided are well-tested, structured, and follow good coding practices.
 
-## :file_folder: Repository Structure
+## 📂 Directory Structure
 
-📂 ai-coding-challenges/
+```
+ai-coding-challenges/
 ├── 📂 best_threshold_selection/
-│ ├── 📝 best_threshold.py # Implementation of the best threshold function
-│ ├── 📖 README.md # Documentation
+│   ├── 📜 best_threshold.py   # Implementation of the best threshold function
+│   ├── 📜 README.md           # Documentation
 ├── 📂 fsm_mod3/
-│ ├── 📝 Mod3FSM.py # Implementation of the Mod3FSM class
-│ ├── 📖 README.md # Documentation
-├── 📖 README.md # Main repository documentation (overview of the repository and structure)
+│   ├── 📜 Mod3FSM.py          # Implementation of the Mod3FSM class
+│   ├── 📜 README.md           # Documentation
+├── 📜 README.md               # Main repository documentation
+```
 
 ## :memo: Problem Overview
 
@@ -42,5 +44,3 @@ python Mod3FSM.py
 
 :rocket: License
 This project is licensed under the MIT License.
-
----
