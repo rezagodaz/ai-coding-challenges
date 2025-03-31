@@ -35,11 +35,11 @@ This problem requires us to calculate the remainder when a binary string is divi
    Navigate to the folder for each assignment:
 
 For Assignment 1:
-cd best_threshold
+cd best_threshold_selection
 python best_threshold.py
 
 For Assignment 2:
-cd fsm_mod3
+cd Mod3FSM
 python Mod3FSM.py
 
 :rocket: License

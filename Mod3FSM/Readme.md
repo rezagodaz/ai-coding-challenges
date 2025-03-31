@@ -1,6 +1,5 @@
 ### **Modulo 3 Using FSM - `README.md`**
 
-````markdown
 # Modulo 3 Using Finite State Machine (FSM)
 
 ## :memo: Problem Overview
@@ -40,7 +39,6 @@ class Mod3FSM:
             state = self.transitions[state][bit]
         return state
 ```
-````
 
 Example Usage:
 
@@ -56,7 +54,7 @@ print(fsm.process("1111"))  # Output: 0
 
 1. Clone the repository:
    git clone https://github.com/rezagodaz/ai-coding-challenges.git
-   cd ai-coding-challenges/mod3_fsm
+   cd ai-coding-challenges/Mod3FSM
 
 2. Run the solution:
 
