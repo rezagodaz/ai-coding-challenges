@@ -27,7 +27,7 @@ def best_threshold(data: List[Tuple[float, int, int, int, int]]) -> Optional[flo
     return best_threshold
 
 
-#Example data (threshold, TP, TN, FP, FN)
+#Example of realistic input data (threshold, TP, TN, FP, FN)
 data = [
     (0.1, 95, 40, 5, 5),
     (0.2, 88, 55, 12, 7),
